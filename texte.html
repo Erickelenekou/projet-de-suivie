@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <style>
+        body{
+            position: relative;
+        }
+       #contenu{
+        width: 600px;
+        height: 200px;
+        background-color: red;
+        margin: auto;
+        box-shadow: 5px 5px 5px 5px; 
+        
+        position: absolute;
+        margin-top: 50px;
+        display: none;
+       }
+    </style>
+    <div id="contenu"> 
+        <div>calme toi je vais te faire</div> 
+        <button id="tous">X</button>
+        <a href="Contacts.html">ertyu</a>
+    </div>
+
+    <div style="width: 50%;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam repellendus qui illo modi inventore voluptatibus, nobis molestiae velit odio sed ab a fugiat, iste libero. Sequi at voluptates amet possimus!
+    </div>
+    <div style="width: 50%;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam repellendus qui illo modi inventore voluptatibus, nobis molestiae velit odio sed ab a fugiat, iste libero. Sequi at voluptates amet possimus!
+    </div>
+    <div style="width: 50%;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam repellendus qui illo modi inventore voluptatibus, nobis molestiae velit odio sed ab a fugiat, iste libero. Sequi at voluptates amet possimus!
+    </div>
+    <div style="width: 50%;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam repellendus qui illo modi inventore voluptatibus, nobis molestiae velit odio sed ab a fugiat, iste libero. Sequi at voluptates amet possimus!
+    </div>
+    <div style="width: 50%;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam repellendus qui illo modi inventore voluptatibus, nobis molestiae velit odio sed ab a fugiat, iste libero. Sequi at voluptates amet possimus!
+    </div>
+
+    
+    <button id="button">afficher</button>
+
+    <script>
+        let button= document.getElementById('button')
+        let tous=document.getElementById('tous')
+        let contenu=document.getElementById('contenu')
+
+        display= false
+        button.addEventListener('click', function name(params) {
+            if (!display) {
+                contenu.style.display='block'
+                display=true
+            }
+        })
+        tous.addEventListener('click', function name(params) {
+            if (display) {
+                contenu.style.display='none'
+                display=false
+            }
+        })
+    </script>
+</body>
+</html>

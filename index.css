@@ -1,0 +1,356 @@
+a:hover{
+    cursor: pointer;
+}
+
+.first-section{
+    display: flex;
+    width: 90%;
+    height: 90px;
+    line-height: 90px;
+    margin: auto;
+    justify-content: space-between;
+    font-family: "Mont", sans-serif;
+}
+
+.logo img{
+    width:150px;
+    height:80px; 
+}
+
+.lien a{
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+}
+.lien a:first-child{
+    color: #41c885;
+}
+.lien a:hover{
+    color: #41c885;
+}
+
+.image{
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0) 70% , rgba(0, 0, 238, 0.589)) , url(assets/image_acceil.jpeg);
+    font-size: 70px;
+    color: white;
+}
+.image div{
+    position:absolute;
+    margin-top: 200px;
+    margin-left: 100px;
+    font-family: "Mont", sans-serif;
+}
+
+
+.les_trois_sections{
+    margin: 7%;
+    width: 90%;
+    display: flex;
+}
+.second-section{
+    width: 30%;
+    margin:10px ;
+}
+.second-section div:first-child{
+    border-radius: 10px;
+    box-shadow: 0rem 0rem 1rem 0rem rgba(131, 131, 131, .5);
+    height: 400px;
+    text-align: center;
+}
+.second-section img{
+    width: 100px;
+    height: 100px;
+    margin-top:30px ;
+}
+.second-section button{
+    width: 125px;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    background-color: #41c885; 
+}
+
+.second-section a{
+    text-decoration: none;
+    color: white;
+}
+.ecriture{
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+.Que_les_ecrits{
+    width: 100%;
+    height: 400px;
+    background-color: #192f59;
+    display: flex;
+    color: white;
+    font-family: "Mont", sans-serif;
+}
+.Que_les_ecrits section{
+    width: 30%;
+    margin: auto;
+}
+.Que_les_ecrits section:first-child{
+   margin-left:8% ;
+}
+.Que_les_ecrits section div:first-child{
+   color: #41c885;
+   font-size: 40px;
+   margin-bottom: 20px;
+}
+
+
+
+.les_quatre_sections{
+    margin: 5%;
+    width: 90%;
+    display: flex;
+}
+.tird-section{
+    width: 30%;
+    margin:10px ;
+    color: white;
+    font-family: "Mont", sans-serif;
+    
+}
+.tird-section div:first-child{
+    border-radius: 10px;
+    background-color: #192f59;
+    box-shadow: 0rem 0rem 1rem 0rem rgba(131, 131, 131, .5);
+    height: 400px;
+    text-align: center;
+}
+.tird-section img{
+    width: 100px;
+    height: 100px;
+    margin-top:30px ;
+}
+.tird-section button{
+    width: 125px;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    background-color: #41c885;
+}
+.tird-section a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.five_square{
+    height: 250px;
+    background-color: #192f59;
+}
+.five_square div{
+    margin: 5%;
+}
+.five_square div img{
+    margin-top: 5%;
+}
+
+
+.footer{
+    height: 100px;
+    background-color:black;
+    font-family: "Mont", sans-serif;
+}
+.recadrage{  
+    width:90% ;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: #838383;
+}
+.recadrage div:first-child{
+    line-height:100px;
+}
+.reseaux{
+    margin-top: 40px;
+}
+.reseaux i{
+   margin:10px;
+} 
+@media (width <=680px ) {
+    .footer{
+        height: 150px;
+        text-align: center;
+    }
+    .recadrage{  
+        display: block;
+    }
+    .reseaux{
+        margin-top: 0px;
+    }
+}
+
+#Contacts{
+    width: 300px;
+    height: 100px;
+    background-color: red;
+}
+/* .reseaux img{
+   margin: 5px;
+} */
+
+
+/* le css de A propos */
+.Accueil_About{
+    margin: 2%;
+    margin-left: 8%;
+    font-family: "Mont", sans-serif;
+}
+.Accueil_About a{
+    text-decoration: none;
+    color: #838383;
+}
+.Accueil_About span{
+    color: #41c885;
+}
+
+.h1_nous_etes_cette{
+    margin-left: 8%;
+    margin-bottom: 2%;
+    font-family: "Mont", sans-serif;
+}
+.h1_nous_etes_cette h1{
+    font-family: "Mont", sans-serif;
+}
+.nous{
+    margin-top:2% ;
+    margin-bottom:2%;
+    color: #838383;
+}
+.cette{
+    color: #838383;
+}
+
+.image3D1 img{
+    border-radius: 20px;
+    width: 85%;
+    margin-left: 8%;
+}
+
+.comparees_smart_notre{
+    margin-left: 8%;
+    margin-top: 3%;
+    font-family: "Mont", sans-serif;
+}
+.comparees{
+    color: #838383;
+}
+.smart{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.notre{
+    color: #838383;
+}
+
+.image3D2 img{
+    border-radius: 20px;
+    width: 85%;
+    margin: 8%;
+}
+
+.noscours_les_3_ska{
+    font-family: "Mont", sans-serif;
+}
+.noscours_les_3_ska h1{
+    margin-left: 8% ;
+}
+.noscours_les_3_ska section:last-child{
+    margin-left: 8% ;
+    margin-top: 5%;
+}
+.les_3_ska{
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
+.chiffre_ska{
+    display: flex;
+    width: 30%;
+}
+.chiffre{
+width: 10%;
+color: #41c885;
+margin-top: 6%;
+}
+.ska div div{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.travers{
+   color: #838383;  
+}
+
+.Rejoignez-nous{
+    margin: 8%;
+    font-family: "Mont", sans-serif;
+}
+.Rejoignez-nous section{
+    width: 50%;
+}
+.Rejoignez-nous section div{
+    margin-top:5%;
+    margin-bottom:5%;
+    color: #838383;
+}
+.Rejoignez-nous div{
+    display: flex;
+}
+.Rejoignez-nous button{
+    width: 200px;
+    height: 50px;
+    background-color: #41c885;
+    border-radius: 10px;
+    border: none;
+}
+.Rejoignez-nous a{
+    text-decoration: none;
+    color: white;
+}
+
+/* contacts */
+
+#Contacts{
+    position: absolute;
+    width: 80%;
+    height: 350px;
+    background-color:white;
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 20px;
+   margin-left: 5%;
+    text-align: center;
+    margin-top: 5%;
+    display: none;
+    z-index: 2;
+}
+#Contacts h1{
+    line-height:150px ;
+    font-family: "Mont", sans-serif;
+    font-size: 20px;
+}
+#Contacts button{
+    background-color: #192f59;
+    border: none;
+    border-radius: 20px;
+    width: 250px;
+    height: 80px;
+    
+    margin: 10px;
+}
+#Contacts #x{
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+#Contacts a{
+    color: white;
+    text-decoration: none;
+    font-family: "Mont", sans-serif;
+    font-size: 18px; 
+}
